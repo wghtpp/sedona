@@ -1,0 +1,88 @@
+.main{
+    background-color: rgba(68, 97, 87, 0.699);
+    color: white;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-bottom: 100px;
+    /* @media (min-width: 100px) and (max-width: 660px) {
+       width: 100%;
+       height: 100%;
+       padding-left: 10px;
+    @media (min-width: 660px) and (max-width: 1100px) {
+        min-width: 50%;
+        padding-left: 10px;}
+            
+    } */
+        @media (min-width: 660px) and (max-width: 1100px) {
+        width: 900px;
+        padding-left: 10px;}
+        @media (min-width: 100px) and (max-width: 660px) {
+            width: 100%;
+            padding-left: 10px;
+            height: 100%;
+        }
+            
+}
+form{
+    
+    color: #f0f8ff;
+    width: 1800px;
+    height: 800px;
+    border: 2px solid white;
+    background-color: #2b2b2b;
+padding-top: 80px;
+padding-left: 80px;
+
+
+@media (min-width: 660px) and (max-width: 1100px) {
+    /* width: 100%; */
+    padding-left: 10px;}
+@media (min-width: 100px) and (max-width: 660px) {
+        width: 100%;
+        padding-left: 10px;
+        height: 100%;
+        }}
+        
+
+.all{
+    display: flex;
+    justify-content: flex-end;
+    @media (min-width: 100px) and (max-width: 660px) {
+        
+        display: block;
+       
+                
+    }
+}
+form p{
+    border: 2px solid white;
+    width: 600px;
+    height: 60px;
+   color: white;@media (min-width: 100px) and (max-width: 660px) { width: 400px;}
+}
+input{
+color: white;
+    background-color: #2b2b2b;
+    border: none;
+    text-align: left;
+}
+button{
+    width: 200px;
+    height: 50px;
+    @media (min-width: 100px) and (max-width: 660px) { margin-bottom: 40px};
+    
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px; 
+    @media (min-width: 400px) and (max-width: 660px) {
+        width: 100%;
+        padding-left: 10px;}
+    @media (min-width: 660px) and (max-width: 1100px) {
+            width: 100%;
+            padding-left: 10px;}
+                
+}
